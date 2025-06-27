@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G7 Classic Cars</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600&family=Oswald:wght@400;500&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">G7 Classic Cars</a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="fleet.html">Our Fleet</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>G7 Classic Cars</h1>
+            <p>Driven by Heritage, Defined by Class</p>
+            <div class="hero-buttons">
+                <a href="fleet.html" class="btn btn-primary">View Our Fleet</a>
+                <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section id="about-preview">
+        <div class="container">
+            <h2 style="margin-top: -50px;">About G7 Classic Cars</h2>
+            <p>G7 Classic cars is a premier vintage and classic car rental service that brings the elegance and charm of motoring history to life. Based in Johannesburg, we specialise in the rental of impeccably maintained vintage vehicles for weddings, matric dances, special events, photoshoots, and film productions. Whether you’re looking to make a grand entrance or simply relive the golden age of motoring, we offer timeless rides for unforgettable moments.</p>
+            <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section id="services-preview" class="light-bg">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>Experience the elegance of a bygone era with our premium classic car services tailored to your special occasion.</p>
+            
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('pictures/vicky.jpg');"></div>
+                    <div class="service-content">
+                        <h3>Chauffeured Rentals</h3>
+                        <p>Ideal for weddings, corporate events, and VIP transfers. Our professional chauffeurs ensure a smooth and elegant experience.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('pictures/Event.jpg');"></div>
+                    <div class="service-content">
+                        <h3>Film & Production Rentals</h3>
+                        <p>Available for movies, commercials, music videos, and photoshoots. Add authentic vintage charm to your visual productions.</p>
+                   </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('pictures/gudani.jpg');"></div>
+                    <div class="service-content">
+                        <h3>Event Showcases</h3>
+                        <p>Display of vintage cars at exhibitions, auto shows, and branded events. Create a stunning atmosphere for your special occasion.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Video Showcase Section -->
+<section class="video-section">
+    <div class="container">
+        <div class="video-content">
+            <h2 style="margin-top: -90px;">Experience Automotive History</h2>
+            <p>Watch our classic cars in action and feel the timeless elegance that only vintage automobiles can provide. Each vehicle in our fleet tells a story of craftsmanship and heritage.</p>
+        </div>
+        <div class="video-container">
+            <video
+                id="showcaseVideo"
+                controls
+                muted
+                playsinline
+                poster="pictures/fleet (2).jpg">
+                <source src="videos/G7 AD FINAL 2 .mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Footer -->
+<footer style="padding: 1rem 0">
+    <div class="container">
+        <div class="footer-content" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-size: 0.85rem;">
+            
+            <!-- Column 1: About + Social -->
+            <div class="footer-about" style="flex: 1; min-width: 200px;">
+                <div class="footer-logo" style="margin-bottom: 0.5rem;">
+                    <img src="pictures/logo(blue).png" alt="G7 Classic Cars Logo" style="width: 90px; height: auto;">
+                </div>
+                <div class="social-links" style="margin-top: 0.5rem;">
+                    <a href="https://www.instagram.com/g7_classic_cars?igsh=a2Jrc2xldWJmdTZk" target="_blank" aria-label="Instagram" style="margin-right: 0.5rem; font-size: 1.2rem;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@g7.classic.cars?_t=ZM-8wsMoIwCzma&_r=1" target="_blank" aria-label="TikTok" style="font-size: 1.2rem;">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-links" style="flex: 1; min-width: 160px;">
+                <h4 style="margin-bottom: 0.5rem; font-size: 1rem;">Quick Links</h4>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fleet.html">Our Fleet</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Services -->
+            <div class="footer-links" style="flex: 1; min-width: 160px;">
+                <h4 style="margin-bottom: 0.5rem; font-size: 1rem;">Our Services</h4>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><a href="#">Chauffeured Rentals</a></li>
+                    <li><a href="#">Film & Production Rentals</a></li>
+                    <li><a href="#">Event Showcases</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright" style="text-align: center; margin-top: -2rem; font-size: 0.75rem;">
+            <p style="font-size: medium;">&copy; 2025 G7 Classic Cars. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

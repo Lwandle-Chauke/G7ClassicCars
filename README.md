@@ -17,7 +17,6 @@
 - [Pages Overview](#-pages-overview)
 - [Deployment Details](#-deployment-details)
 - [Getting Started Locally](#-getting-started-locally)
-- [Future Improvements](#-future-improvements)
 - [Contact](#-contact)
 - [License](#-license)
 

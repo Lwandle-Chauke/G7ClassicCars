@@ -31,13 +31,13 @@
 
 ## Features
 
-- ✅ Responsive design (desktop, tablet, mobile)
-- ✅ Clean, minimalist aesthetic
-- ✅ Fleet showcase with images
-- ✅ About page with brand story
-- ✅ Contact page with form
-- ✅ Secure HTTPS via Netlify
-- ✅ SEO-optimized HTML structure
+- Responsive design (desktop, tablet, mobile)
+- Clean, minimalist aesthetic
+- Fleet showcase with images
+- About page with brand story
+- Contact page with form
+- Secure HTTPS via Netlify
+- SEO-optimized HTML structure
 
 ---
 
@@ -117,21 +117,6 @@ You can either:
 
 * Open `index.html` in your browser directly, or
 * Use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code for hot-reloading
-
----
-
-## Future Improvements
-
-Here are some planned or potential upgrades:
-
-* [ ] Lightbox popup for car images
-* [ ] Google Maps embed on contact page
-* [ ] Formspree/Netlify Forms integration for contact
-* [ ] Fleet data loaded from JSON for easier management
-* [ ] Filters for car categories or years
-* [ ] Newsletter signup form
-* [ ] Scroll animations (e.g. AOS library)
-* [ ] Admin panel (in future dev version)
 
 ---
 
